@@ -1,3 +1,12 @@
+.card-heading {
+    margin-bottom: 5em;
+}
+
+#cards {
+    padding: 7em 0;
+    clear: both;
+}
+
 .bg-secondary-bs {
     background-color: #97ABBD;
 }
