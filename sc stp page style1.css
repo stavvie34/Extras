@@ -1,3 +1,9 @@
+a.icon-link {
+    height: 100%;
+    width: 100%;
+    display: inherit;
+}
+
 .card-heading {
     margin-bottom: 5em !important;
 }
@@ -82,7 +88,7 @@
 
 .services:hover .icon,
 .services:focus .icon {
-    background: #007CB9;
+    background: #3B81B6;
     -webkit-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.13);
     -ms-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.13);
@@ -92,7 +98,8 @@
 
 .services:hover h3 a,
 .services:focus h3 a {
-    color: #F95959;
+    /*color: #F95959;*/
+    color: #5e2b7c
 }
 
 #steps {
