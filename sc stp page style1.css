@@ -2,6 +2,12 @@
     #steps {
         margin-top: 25px;
     }
+    .location-breakdown {
+        margin-bottom: 50px !important;
+    }
+    .item p {
+        line-height: 1.8em !important;
+    }
 }
 
 li.nav-item.waves-effect.waves-light.nav-item-5.active {
