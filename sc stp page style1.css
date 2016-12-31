@@ -5,6 +5,9 @@
     position: relative;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     cursor: default;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px !important;
 }
 
 .ch-info-wrap,
@@ -28,7 +31,7 @@
 .ch-info-wrap {
     top: 20px;
     left: 20px;
-    background: #f9f9f9 url(https://tympanus.net/Tutorials/CircleHoverEffects/images/bg.jpg);
+    background: #f9f9f9 url(http://www.supercamp.com/wp-content/uploads/2016/12/bg.jpg);
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8);
 }
 
@@ -69,19 +72,23 @@
 }
 
 .ch-img-1 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/MeganCardFlip3.jpg);
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/MeganCardFlip5.jpg);
 }
 
 .ch-img-2 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/CharlesCardFlip2.jpg);
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/CharlesCardFlip4.jpg);
 }
 
 .ch-img-3 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/SpencerCardFlip2.jpg);
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/SpencerCardFlip4.jpg);
 }
 
 .ch-img-4 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/AlexCardFlip2.jpg);
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/AlexCardFlip4.jpg);
+}
+
+.ch-img-5 {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/KatieCardFlip1.jpg);
 }
 
 .ch-info h3 {
