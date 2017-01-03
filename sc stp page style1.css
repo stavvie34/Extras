@@ -1,3 +1,171 @@
+@media (min-width: 768px) {
+    .mobile-headers-row {
+        display: none;
+    }
+}
+
+.scroll-btn-hdr {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 15;
+}
+
+.scroll-btn-hdr>* {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #7f8c8d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.scroll-btn-hdr>*:hover,
+.scroll-btn-hdr>*:focus,
+.scroll-btn-hdr>*.active {
+    color: #ffffff;
+}
+
+.scroll-btn-hdr>*:hover,
+.scroll-btn-hdr>*:focus,
+.scroll-btn-hdr>*:active,
+.scroll-btn-hdr>*.active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.scroll-btn-hdr .mouse-hdr {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 45px;
+    margin: 0 auto 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 23px;
+}
+
+.scroll-btn-hdr .mouse-hdr>* {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 50%;
+    width: 2px;
+    height: 6px;
+    margin: -2px 0 0 -1px;
+    background: white;
+    -webkit-animation: ani-mouse 2.5s linear infinite;
+    -moz-animation: ani-mouse 2.5s linear infinite;
+    animation: ani-mouse 2.5s linear infinite;
+}
+
+.mobile-headers {
+    position: relative;
+    min-height: 800px;
+}
+
+.mobile-headers .mobile-headers-text {
+    position: relative;
+    z-index: 5;
+}
+
+.mobile-headers .mobile-headers-text .full-height {
+    display: table;
+    min-height: 800px;
+}
+
+.mobile-headers .mobile-headers-text .full-height .mobile-headers-intro {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 800px;
+}
+
+.mobile-headers .mobile-headers-text .cover-text-lead {
+    font-size: 40px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mobile-headers .mobile-headers-text .cover-text-sublead {
+    font-size: 16px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline:hover {
+    color: #fff;
+    background: #1784fb;
+    border-color: #1784fb;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline:hover,
+.mobile-headers .mobile-headers-text .btn-outline:focus,
+.mobile-headers .mobile-headers-text .btn-outline:active {
+    outline: none;
+}
+
+
+/* COVER STYLE #1 */
+
+.mobile-headers-style-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
+
+.mobile-headers-style-1>.mobile-headers-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+
+
+/* COVER STYLE #2 */
+
+.mobile-headers-style-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
+
+.mobile-headers-style-2>.mobile-headers-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+
 .ch-item {
     width: 220px;
     height: 220px;
