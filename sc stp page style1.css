@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .mobile-headers-row {
         display: none;
     }
@@ -68,7 +68,7 @@
 
 .mobile-headers {
     position: relative;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .mobile-headers .mobile-headers-text {
@@ -78,13 +78,13 @@
 
 .mobile-headers .mobile-headers-text .full-height {
     display: table;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .mobile-headers .mobile-headers-text .full-height .mobile-headers-intro {
     display: table-cell;
     vertical-align: middle;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .mobile-headers .mobile-headers-text .cover-text-lead {
