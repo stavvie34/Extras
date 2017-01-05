@@ -2150,6 +2150,9 @@ button.close-bs {
     clear: both;
 }
 
+
+/*START OF BS STYLES*/
+
 .fade-bs {
     opacity: 1;
     -webkit-transition: opacity .15s linear;
@@ -2288,6 +2291,9 @@ section {
 .bg-primary-bs {
     background-color: #45769C;
 }
+
+
+/*END OF BS STYLES*/
 
 .center,
 center1,
