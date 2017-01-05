@@ -1016,6 +1016,12 @@ a.pos-hdr-btn:hover {
     border: 2px solid #45769C;
 }
 
+.pos-hdr-btn-back {
+    background: #97ABBD;
+    color: #fff;
+    border: 2px solid #97ABBD;
+}
+
 .hdr-or {
     padding-left: 10px;
     padding-right: 10px;
@@ -1046,4 +1052,5 @@ a .hdr-icon-right {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    font-size: 1.1em;
 }
