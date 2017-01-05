@@ -1065,4 +1065,8 @@ a .hdr-icon-right {
     .pos-txt {
         margin-top: 25px;
     }
+    .pos-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
