@@ -1004,6 +1004,7 @@ section {
     padding: 10px 20px;
     line-height: 1.42857;
     font-weight: bold;
+    vertical-align: top;
 }
 
 a.pos-hdr-btn:hover {
