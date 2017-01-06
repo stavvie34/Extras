@@ -1017,10 +1017,20 @@ a.pos-hdr-btn:hover {
     border: 2px solid #45769C;
 }
 
+a.pos-hdr-btn-success:hover {
+    background: #194E77;
+    border: 2px solid #194E77;
+}
+
 .pos-hdr-btn-back {
     background: #97ABBD;
     color: #fff;
     border: 2px solid #97ABBD;
+}
+
+a.pos-hdr-btn-back:hover {
+    background: #496B89;
+    border: 2px solid #496B89;
 }
 
 
