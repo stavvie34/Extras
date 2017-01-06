@@ -1102,6 +1102,9 @@ a.icon-link {
     background-color: #97ABBD;
 }
 
+
+/*START OF BS STYLES*/
+
 .col-xs-1-bs,
 .col-sm-1-bs,
 .col-md-1-bs,
@@ -2149,9 +2152,6 @@ button.close-bs {
 .modal-footer-bs:after {
     clear: both;
 }
-
-
-/*START OF BS STYLES*/
 
 .fade-bs {
     opacity: 1;
