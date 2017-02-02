@@ -188,6 +188,18 @@ h3.description-title {
     margin-bottom: 10px !important;
 }
 
+.list-item {
+    margin-bottom: 10px;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.list-item-end {
+    margin-bottom: 30px;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
 /*Box behind photo
 .half-inner::before {
   position: absolute;
