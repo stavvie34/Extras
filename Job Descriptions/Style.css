@@ -11,18 +11,17 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     border-radius: 4px;
+    -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
     white-space: nowrap;
     padding: 10px 20px;
     line-height: 1.42857;
-    font-weight: bold;
     vertical-align: top;
 }
 
@@ -67,7 +66,7 @@ a.pos-hdr-btn-back:hover {
 }
 
 @media (max-width: 576px) {
-    h2.font-weight-normal {
+    .font-weight-normal {
         font-size: 3em !important;
     }
 }
@@ -86,7 +85,7 @@ a.pos-hdr-btn-back:hover {
 }
 
 .comparison-title {
-  padding-top: 0em;
+  padding-top: 0;
   display: block;
   font-size: 2.25em;
   line-height: 20px;
@@ -108,12 +107,13 @@ a.pos-hdr-btn-back:hover {
   width: 100%;
   text-align: center;
   background: #fff;
-  padding: 20px 0px 20px;
+  padding: 20px 0 20px;
   margin-bottom: 1.5em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -148,7 +148,7 @@ a.pos-hdr-btn-back:hover {
 }
 @media screen and (max-width: 768px) {
   .comparison-item:hover, .comparison-item.active {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 
@@ -167,7 +167,7 @@ section {
     }
 }
 
-p.description {
+.description {
     margin-bottom: 30px !important;
     margin: 0 0 10px;
     font-size: 16px;
@@ -184,7 +184,7 @@ h2.description-title {
 }
 
 h3.description-title {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px !important;
 }
 
