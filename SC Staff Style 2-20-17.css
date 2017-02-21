@@ -1,3 +1,7 @@
+.content .container {
+    background-color: transparent;
+}
+
 @media (min-width: 992px) {
     .mobile-headers-row {
         display: none;
