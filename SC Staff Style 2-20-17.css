@@ -4,68 +4,6 @@
     }
 }
 
-.scroll-btn-hdr {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    z-index: 15;
-}
-
-.scroll-btn-hdr>* {
-    display: inline-block;
-    line-height: 18px;
-    font-size: 13px;
-    font-weight: normal;
-    color: #7f8c8d;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    letter-spacing: 2px;
-}
-
-.scroll-btn-hdr>*:hover,
-.scroll-btn-hdr>*:focus,
-.scroll-btn-hdr>*.active {
-    color: #ffffff;
-}
-
-.scroll-btn-hdr>*:hover,
-.scroll-btn-hdr>*:focus,
-.scroll-btn-hdr>*:active,
-.scroll-btn-hdr>*.active {
-    opacity: 0.8;
-    filter: alpha(opacity=80);
-}
-
-.scroll-btn-hdr .mouse-hdr {
-    position: relative;
-    display: block;
-    width: 30px;
-    height: 45px;
-    margin: 0 auto 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 2px solid white;
-    border-radius: 23px;
-}
-
-.scroll-btn-hdr .mouse-hdr>* {
-    position: absolute;
-    display: block;
-    top: 29%;
-    left: 50%;
-    width: 2px;
-    height: 6px;
-    margin: -2px 0 0 -1px;
-    background: white;
-    -webkit-animation: ani-mouse 2.5s linear infinite;
-    -moz-animation: ani-mouse 2.5s linear infinite;
-    animation: ani-mouse 2.5s linear infinite;
-}
-
 .mobile-headers {
     position: relative;
     min-height: 500px;
@@ -314,28 +252,6 @@
     background: rgba(0, 0, 0, 0.75);
 }
 
-.div-link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.hr-small {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    max-width: 150px;
-    border-color: rgba(255, 255, 255, 0.5);
-    border-top-width: 2px;
-}
-
-.ch-item-small .hr-small {
-    max-width: 100px;
-    margin-top: -20px;
-}
-
 .row-bs .qbutton {
     margin: 10px 0 0 10px !important;
 }
@@ -390,21 +306,6 @@ li.nav-item.waves-effect.waves-light.nav-item-3.active {
 
 .nav-item-3 {
     width: 33.3%;
-}
-
-.service-box {
-    max-width: 400px;
-    margin: 50px auto 0
-}
-
-@media (min-width:992px) {
-    .service-box {
-        margin: 20px auto 0
-    }
-}
-
-.service-box p {
-    margin-bottom: 0
 }
 
 .tabs-3 {
@@ -488,10 +389,6 @@ li.nav-item.waves-effect.waves-light.nav-item-3.active {
     -o-border-radius: 2px;
     border-radius: 2px;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-}
-
-.red {
-    background-color: #f44336 !important;
 }
 
 .nav {
@@ -1100,10 +997,6 @@ a.icon-link {
 
 #steps {
     opacity: 0.9999999;
-}
-
-.bg-4-bs {
-    background-color: #97ABBD;
 }
 
 
