@@ -2678,3 +2678,7 @@ a.thumb {
     border-radius: 50%;
     border: 15px solid #45769C;
 }
+
+.text-left {
+  text-align: left;
+}
