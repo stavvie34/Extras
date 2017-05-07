@@ -1,0 +1,70 @@
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://rawgit.com/stavvie34/External-Libraries/master/Slideout-Side-Nav-Style.css">
+    <style>
+      .slideout-menu { text-align: right; }
+      .btn-hamburger { left: auto; right: 12px;}
+      .box { height: 1500px; }
+    </style>
+  </head>
+  <body>
+    <div class="slideout-side-nav">
+      <div id="menu" class="menu">
+        <a href="https://github.com/mango/slideout" target="_blank">
+          <div class="menu-header">
+            <span class="menu-header-title">This is The Title</span>
+          </div>
+        </a>
+
+        <section class="menu-section">
+          <h3 class="menu-section-title">Docs</h3>
+          <ul class="menu-section-list">
+            <li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+            <li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+            <li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+            <li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+          </ul>
+        </section>
+
+      </div>
+
+      <main id="panel" class="panel">
+        <div class="panel-header">
+          <button class="btn-hamburger js-slideout-toggle"></button>
+          <h1 class="title">Slideout.js</h1>
+        </div>
+
+      </main>
+
+      <div class="fixed-header">
+        <button class="btn-hamburger js-slideout-toggle"></button>
+      </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+
+    <script>
+      window.onload = function() {
+        var slideout = new Slideout({
+          'panel': document.getElementById('panel'),
+          'menu': document.getElementById('menu'),
+          'side': 'right'
+        });
+
+        document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
+          slideout.toggle();
+        });
+
+        document.querySelector('.menu').addEventListener('click', function(eve) {
+          if (eve.target.nodeName === 'A') { slideout.close(); }
+        });
+      };
+    </script>
+  </body>
